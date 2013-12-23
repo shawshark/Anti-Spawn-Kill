@@ -22,7 +22,6 @@ public class main extends JavaPlugin implements Listener {
 	
 	@Override
 	public void onEnable() {
-		saveDefaultConfig();
 		Bukkit.getPluginManager().registerEvents(this, this);	
 	}
 	
